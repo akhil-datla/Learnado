@@ -10,14 +10,7 @@ As a content manager, you will be responsible for creating and managing the cour
 
 ### 1. Downloading Learnado
 
-Before you can start using Learnado, you need to download the Learnado software. Follow these steps to download Learnado from the GitHub releases:
-
-1. Navigate to the "Releases" section of the repository.
-2. Locate the latest stable release version of Learnado.
-3. Download the Learnado release package specific to your operating system (e.g., macOS, Linux, or Windows).
-4. Extract the downloaded package to a location on your computer where you want to store the Learnado files.
-
-Once you have downloaded and extracted the Learnado package, you can proceed with the remaining steps.
+Before you can start using Learnado, you need to download the Learnado software. Clone the repository to get started.
 
 ### 2. Install Hugo
 
@@ -60,14 +53,14 @@ To run Learnado on your system, you need to execute the Learnado binary. Here ar
 
 #### For MacOS and Linux:
 1. Open a terminal.
-2. Navigate to the directory where the Learnado binary is located.
+2. Navigate to the directory where Learnado is located.
 3. Use the `cd` command followed by the directory path to navigate to the Learnado folder. For example:
    ```
    cd /path/to/learnado
    ```
-4. Once inside the Learnado folder, run the Learnado binary by executing the following command:
+4. Once inside the Learnado folder, run the Learnado program by executing the following command:
    ```
-   ./Learnado-ContentManager
+   go run main.go
    ```
    Note: If you encounter permission issues, you may need to make the Learnado binary executable by running the command `chmod +x Learnado-ContentManager` before executing it.
 
@@ -78,9 +71,9 @@ To run Learnado on your system, you need to execute the Learnado binary. Here ar
    ```
    cd C:\path\to\learnado
    ```
-4. Once inside the Learnado folder, run the Learnado binary by executing the following command:
+4. Once inside the Learnado folder, run Learnado by executing the following command:
    ```
-   Learnado-ContentManager.exe
+   go run main.go
    ```
 
 After executing the Learnado binary, the Learnado platform will start running on your local machine. If it successfully runs, you will see this message: `⇨ http server started on [::]:8080`.
