@@ -8,7 +8,7 @@ require (
 	github.com/otiai10/copy v1.7.0
 	github.com/pterm/pterm v0.12.42
 	github.com/satori/go.uuid v1.2.0
-	golang.org/x/crypto v0.31.0
+	golang.org/x/crypto v0.35.0
 )
 
 require (
@@ -34,9 +34,9 @@ require (
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
 	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
