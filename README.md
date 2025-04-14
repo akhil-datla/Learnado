@@ -49,34 +49,34 @@ Note: It's important to familiarize yourself with the Hugo framework and the Hug
 
 ### 5. Executing the Learnado Binary
 
-To run Learnado on your system, you need to execute the Learnado binary. Here are the steps to execute the binary on different operating systems:
+To run Learnado on your system, you need to execute the Learnado program. Here are the steps to execute the program on different operating systems:
 
 #### For MacOS and Linux:
 1. Open a terminal.
-2. Navigate to the directory where Learnado is located.
+2. Navigate to the directory where the Learnado binary is located.
 3. Use the `cd` command followed by the directory path to navigate to the Learnado folder. For example:
    ```
    cd /path/to/learnado
    ```
-4. Once inside the Learnado folder, run the Learnado program by executing the following command:
+4. Once inside the Learnado folder, run the Learnado binary by executing the following command:
    ```
    go run main.go
    ```
-   Note: If you encounter permission issues, you may need to make the Learnado binary executable by running the command `chmod +x Learnado-ContentManager` before executing it.
+   Note: If you encounter permission issues, you may need to make the Learnado binary executable by running the command `chmod +x Learnado-Student` before executing it.
 
 #### For Windows:
 1. Open the command prompt or PowerShell.
-2. Navigate to the directory where the Learnado binary is located. This may be the folder where you downloaded or cloned the Learnado repository.
+2. Navigate to the directory where the Learnado program is located. This may be the folder where you downloaded or cloned the Learnado repository.
 3. Use the `cd` command followed by the directory path to navigate to the Learnado folder. For example:
    ```
    cd C:\path\to\learnado
    ```
-4. Once inside the Learnado folder, run Learnado by executing the following command:
+4. Once inside the Learnado folder, run the Learnado binary by executing the following command:
    ```
    go run main.go
    ```
 
-After executing the Learnado binary, the Learnado platform will start running on your local machine. If it successfully runs, you will see this message: `⇨ http server started on [::]:8080`.
+After executing the Learnado program, the Learnado platform will start running on your local machine. If it successfully runs, you will see this message: `⇨ http server started on [::]:8080`.
 
 ### 6. Course Upload and Registration
 
